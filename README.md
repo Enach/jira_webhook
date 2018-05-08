@@ -2,7 +2,8 @@ This package permit to use webhook between jira and discord, so you know what ha
 
 ## USAGE
 Run `npm start`
-Then put in jira the url of your server ass follow: [PROTOCOL]://url_server/discord_hook_id/discord_hook_token
+Then put in jira the url of your server ass follow: [PROTOCOL]://url_server:port/discord_hook_id/discord_hook_token
+By default the port is 3000. If you do not know how to get your hook_id and hook_token, please refer to [this article](https://github.com/Mythen96/de.isekaidev.discord.wbbBridge/wiki/How-to-get-Webhook-ID-&-Token)
 
 ## Managed event
 Currently only the creation, update and assignment of an issue.
