@@ -1,4 +1,4 @@
-This package permit to use webhook between jira and discord, so you know what happen on your jira directly on your discord server.
+This package permits to use webhook between Jira and discord, so you know what happens on your Jira directly on your discord server.
 
 ## USAGE
 Run `npm start`
